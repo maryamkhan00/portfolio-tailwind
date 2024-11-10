@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header-buttons{
+  height: 75px;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 50px;
+  background-color: rgb(188, 160, 211);
+  color: rgb(146, 29, 29);
+}
+
+.parentDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  min-height: 100;
+}
+
+.child1 {
+  width: 100%;
+  margin: 20px;
+  font-size: 60px;
+  font-weight: 900px;
+  flex: 1;
+}
+
+.name {
+  color: rgba(207, 4, 4, 0.678);
+}
+
+.child2{
+  margin: 40px;
+  padding: 40px;
+}
+
+.contactus {
+  padding: 111px;
+  font-size: 80px;
+  font-weight: 900px;
+  color: rgba(255, 220, 220, 0.678);
+  background-color: rgb(69, 31, 105);
+}
+
+.about {
+  padding: 111px;
+  font-size: 80px;
+  font-weight: 900px;
+  color: rgba(255, 220, 220, 0.678);
+  background-color: rgb(69, 31, 105);
+}
+
+.portfolio{
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 300px;
+  color: rgba(240, 228, 250, 0.678);
+  background-color: rgb(54, 7, 73);
+}
+
+.Footer{
+  height: 70px;
+  padding-right: 20px;
+  background-color: rgb(188, 160, 211);
+  color: rgb(146, 29, 29);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.point{
+  color: bisque;
+}
+
+.contact-parent, .about-parent{
+  background-color: rgb(69, 31, 105);;
+}
+
+
+@media (max-width: 480px) {
+  .header-buttons {
+    gap: 20px;
+    font-size: 13px;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .parentDiv {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .child1 {
+    font-size: 28px;
+    align-items: left;
+    margin: 10px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+  }
+
+  .child2 {
+    margin: 20px 0;
+    align-items: right;
+  }
+
+  .portfolio, .about, .contactus {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 24px;
+  }
+
+  .about-container, .contact-container {
+    padding-top: 220px;
+    padding-bottom: 220px;
+
+  }
+
+  .Footer {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
